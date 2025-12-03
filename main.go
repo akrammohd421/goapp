@@ -178,5 +178,44 @@
 
 
 
+// logical operators
+// Logical operators are used to determine the logic between variables or values:
+
+
+// and operator
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	var x = 5
+
+// 	fmt.Println(x < 5 && x < 10)
+// }
+
+//or operator
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	var x = 5
+
+// 	fmt.Println(x < 5 || x < 10)
+// }
+
+// not operator
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	var x = 5
+
+// 	fmt.Println(!(x < 5 && x < 10))
+// }
+
+// logical operator ennd-------------------------------
 
 
