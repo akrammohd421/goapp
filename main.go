@@ -95,6 +95,88 @@
 // -------------------------------------
 
 
+// Go Comparison Operators
+
+
+// Equal to=======================
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x==y)
+// }
+
+
+// not equal operator	
+
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x!=y)
+// }
+
+//Greater than
+
+
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x>y)
+// }
+
+//lesser than
+
+
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x<y)
+// }
+
+
+// greater than or equal to
+
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x>=y)
+// }
+
+// lesser than or equal to
+
+// package main
+// import("fmt")
+// func main(){
+
+// 	var x = 5
+// 	var y = 3
+
+// 	fmt.Println(x<=y)
+// }
+
+
+// comparision operator end 
+
+
 
 
 
