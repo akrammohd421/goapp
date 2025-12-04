@@ -219,3 +219,51 @@
 // logical operator ennd-------------------------------
 
 
+// Go Bitwise Operators
+
+// package main
+// import ("fmt")
+// func main() {
+
+//   var x = 9
+//   var y = 8
+
+//   fmt.Printf("x = %b\n",x)
+//   fmt.Printf("y = %b\n",y)
+    
+//   fmt.Printf("x & y is %b\n",x & y)
+// }
+
+
+
+
+// 0r-------------------
+// package main
+// import ("fmt")
+// func main() {
+
+//   var x = 9
+//   var y = 8
+
+//   fmt.Printf("x = %b\n",x)
+//   fmt.Printf("y = %b\n",y)
+    
+//   fmt.Printf("x | y is %b\n",x | y)
+// }
+
+
+
+// xor-----------------------
+
+// package main
+// import ("fmt")
+// func main() {
+
+//   var x = 9
+//   var y = 8
+
+//   fmt.Printf("x = %b\n",x)
+//   fmt.Printf("y = %b\n",y)
+    
+//   fmt.Printf("x ^ y is %b\n",x ^ y)
+// }
