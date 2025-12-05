@@ -267,3 +267,146 @@
     
 //   fmt.Printf("x ^ y is %b\n",x ^ y)
 // }
+
+
+// Conditions 
+
+// Use if to specify a block of code to be executed, if a specified condition is true
+// Use else to specify a block of code to be executed, if the same condition is false
+// Use else if to specify a new condition to test, if the first condition is false
+//switch to specify many alternative blocks of code to be executed
+
+
+//!if-------------------------------------
+//? Use the if statement to specify a block of Go code to be executed if a condition is true.
+
+// package main
+
+// import ("fmt")
+
+// func main(){
+// 	if 20 > 18{
+// 		fmt.Printf("hello this statement is correct")
+// 	}
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main() {
+// 	x:= 20
+// 	y:= 18
+
+// 	if x > y {
+//         fmt.Println("this works")
+// 	}
+// }
+
+
+// The else Statement start--------------------
+// Use the else statement to specify a block of code to be executed if the condition is false.
+
+// Syntax
+// if condition {
+//   ? code to be executed if condition is true
+// } else {
+//   ? code to be executed if condition is false
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	time := 20
+
+// 	if time < 18 {
+// 		fmt.Printf("good morning")
+// 	}else{
+// 		fmt.Printf("good evening")
+// 	}
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	temperature := 14
+
+// 	if (temperature > 15){
+// 		fmt.Printf("temperature is less and hot")
+// 	}else{
+// 		fmt.Printf("temperature is high and cold ")
+// 	}
+// }
+
+// The else Statement end--------------------
+
+
+// Go else if Statement start----------
+
+// Use the else if statement to specify a new condition if the first condition is false.
+
+// Syntax
+// if condition1 {
+//    // code to be executed if condition1 is true
+// } else if condition2 {
+//    // code to be executed if condition1 is false and condition2 is true
+// } else {
+//    // code to be executed if condition1 and condition2 are both false
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// time := 20
+
+// if time < 10{
+// 	fmt.Println("good morning")
+// }else if time < 20{
+// fmt.Println("good afternon")
+// }else{
+// 	fmt.Println("Good evening")
+// }
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	a := 12
+// 	b := 12
+
+// 	if(a>b){
+// 		fmt.Println("a is bigger")
+// 	}else if(a<b){
+// 		fmt.Println("b is bigger")
+// 	}else{
+// 		fmt.Println("a and b are eaual")
+// 	}
+// }
+
+
+
+// Note: If condition1 and condition2 are BOTH true, only the code for condition1 are executed:
+
+// package main
+
+// import ("fmt")
+
+// func main(){
+// 	x:= 30
+
+// 	if x > 20 {
+// 		fmt.Println("30 is bigger than 20")
+// 	}else if x>= 10{
+//      fmt.Println("20 is bigger than 30")
+// 	}else{
+//        fmt.Println("i dont know")
+// 	}
+// }
