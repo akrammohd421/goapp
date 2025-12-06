@@ -410,3 +410,38 @@
 //        fmt.Println("i dont know")
 // 	}
 // }
+
+
+
+// --------------------------------------
+
+// The Nested if Statement
+// You can have if statements inside if statements, this is called a nested if.
+
+// Syntax
+// if condition1 {
+//    // code to be executed if condition1 is true
+//   if condition2 {
+//      // code to be executed if both condition1 and condition2 are true
+//   }
+// }
+
+
+
+
+// This example shows how to use nested if statements:
+
+// package main
+// import ("fmt")
+
+// func main() {
+//   num := 20
+//   if num >= 10 {
+//     fmt.Println("Num is more than 10.")
+//     if num > 15 {
+//       fmt.Println("Num is also more than 15.")
+//      }
+//   } else {
+//     fmt.Println("Num is less than 10.")
+//   }
+// }
