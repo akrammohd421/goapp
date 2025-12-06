@@ -490,3 +490,50 @@
 //     fmt.Println("Sunday")
 //   }
 // }
+
+
+// -------------------practice for nested if and single case switch
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	num := 20
+
+// 	if num >= 10{
+// 		fmt.Println("10 is lesser than 20")
+// 		if num > 15{
+// 			fmt.Println("15 is also greaater than 20")
+// 		}else{
+// 			fmt.Println("ITS WRONG OUTPUT")
+// 		}
+// 	}
+// }
+
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	day := 4
+
+// 	switch day{
+// 	case 1:
+// 		fmt.Println("sunday")
+//     case 2:
+// 		fmt.Println("monday")
+// 	case 3:
+// 		fmt.Println("tuesday")
+// 	case 4:
+// 		fmt.Println("wednesday")
+// 	case 5:
+// 		fmt.Println("thursday")
+// 	case 6: 
+// 	    fmt.Println("friday")
+// 	case 7:
+// 		fmt.Println("saturday")
+// 	}
+
+
+// }
