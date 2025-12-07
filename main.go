@@ -573,3 +573,144 @@
 // 	    fmt.Println("no days are as per u bro just enjoy u are not employed hahahah")
 // 	}
 // }
+
+
+
+// go loops -------------------------------
+
+// statement1 Initializes the loop counter value.
+
+// statement2 Evaluated for each loop iteration. If it evaluates to TRUE, the loop continues. If it evaluates to FALSE, the loop ends.
+
+// statement3 Increases the loop counter value.
+
+// package main
+// import ("fmt")
+
+// func main(){
+	
+// 	for i:=0; i < 5; i++{
+// 		fmt.Println(i)
+// 	}
+// }
+
+
+// explained
+// i:=0; - Initialize the loop counter (i), and set the start value to 0
+// i < 5; - Continue the loop as long as i is less than 5
+// i++ - Increase the loop counter value by 1 for each iteration
+
+
+// counts to 100 by tens
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	for i:=0; i <= 100; i+=10{
+// 		fmt.Println(i)
+// 	}
+// }
+
+
+// i:=0; - Initialize the loop counter (i), and set the start value to 0
+// i <= 100; - Continue the loop as long as i is less than or equal to 100
+// i+=10 - Increase the loop counter value by 10 for each iteration
+
+
+// The continue Statement------------
+
+// The continue statement is used to skip one or more iterations in the loop. It then continues with the next iteration in the loop.
+
+// This example skips the value of 3:
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	for i:=0; i < 5; i++{
+// 		if i ==3 {
+// 			continue
+// 		}
+// 		fmt.Println(i)
+// 	}
+// }
+
+
+// The break Statement
+
+// The break statement is used to break/terminate the loop execution.
+
+//  example breaks out of the loop when i is equal to 3:
+
+// package main
+// import("fmt")
+// func main(){
+// 	for i:=0; i < 5; i++{
+// 		if i ==3 {
+// 			break
+// 		}
+// 		fmt.Println(i)
+// 	}
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	adj := [2]string{"apple", "banana"}
+// 	fruits := [3]string{"facebook", "instagram", "twitter"}
+
+// 	for i:= 0; i < len(adj);i++{
+//     for j:=0; j < len(fruits); j++{
+// 		fmt.Println(adj[i], fruits[j])
+// 	}
+
+
+// 	}
+// }
+
+// This example uses range to iterate over an array and print both the indexes and the values at each (idx stores the index, val stores the value):
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// fruits := [3]string{"apple", "mango", "banana"}
+
+// for idx, val := range fruits {
+// fmt.Printf("%v\t%v\n", idx, val)
+// }
+
+
+// }
+
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	fruits := [3]string{"ahmednawaz", "hooriya", "akram"}
+
+// 	for _, val := range fruits{
+// 		fmt.Printf("%v\n", val)
+// 	} 
+      
+// }
+
+
+
+// here i will remove the values and prnt the index 
+
+// package main
+// import ("fmt")
+
+// func main(){
+// 	sports := [3]string{"calisthenics", "swimming", "gym"}
+
+// 	for idx, _ := range sports{
+// 		fmt.Printf("%v\n", idx)
+// 	}
+// }
