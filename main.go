@@ -741,3 +741,37 @@
 //   myMessage()
 //   myMessage()
 // }
+
+
+
+
+// Function With Parameter 
+
+// package main
+// import ("fmt")
+
+// func familyName(fname string) {
+//   fmt.Println("Hello", fname, "Refsnes")
+// }
+
+// func main() {
+//   familyName("Liam")
+//   familyName("Jenny")
+//   familyName("Anja")
+// }
+
+
+// package main
+// import ("fmt")
+
+// func familyName(fname string, age int) {
+//   fmt.Println("Hello", age, "year old", fname, "Refsnes")
+// }
+
+// func main() {
+//   familyName("Liam", 3)
+//   familyName("Jenny", 14)
+//   familyName("Anja", 30)
+// }
+
+
