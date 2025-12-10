@@ -801,3 +801,126 @@
 // func main() {
 //   fmt.Println(myFunction(1, 2))
 // }
+
+
+
+// package main
+// import ("fmt")
+
+// func myMessage(){
+// 	fmt.Println("i just got executed")
+// }
+
+// func main() {
+// 	myMessage()
+// }
+
+// function can be called multiple times
+
+// package main
+// import ("fmt")
+
+// func myMessage(){
+// 	fmt.Println("i just got executed")
+// }
+
+// func main() {
+// 	myMessage()
+// 	myMessage()
+// 	myMessage()
+// }
+
+
+// Function With Parameter Example
+
+
+
+
+// package main
+// import ("fmt")
+
+// func myFamily(name string){
+// fmt.Println("Idrisi",  name )
+// }
+
+// func main() {
+// 	myFamily("akram")
+// 	myFamily("nawaz")
+// 	myFamily("hooriya")
+// }
+
+// package main
+// import("fmt")
+
+// func myFamily(fname string, age int){
+// fmt.Println("My name is idrisi",fname, "and my age is", age  )
+// }
+
+// func main(){
+// 	myFamily("Akram", 22)
+// 	myFamily("Hooriya", 18)
+// 	myFamily("Ahmed Nawaz", 25)
+// }
+
+// Function Return Example
+
+// package main
+// import ("fmt")
+
+// func myAddition(age1 int, age2 int)int{
+
+// return age1 + age2
+
+// }
+
+// func main(){
+// 	fmt.Println(myAddition(1, 2))
+// }
+
+
+// Named Return Values
+
+// package main
+// import("fmt")
+
+// func myFunction(age1 int, age2 int)( result int ){
+// result = age1 + age2
+// return
+// }
+
+// func main(){
+// 	fmt.Println((myFunction(3, 4)))
+// }
+
+
+// Store the Return Value in a Variable
+
+
+// package main
+// import("fmt")
+
+// func myMessage(age1 int, age2 int)(result int){
+// 	result = age1 + age2 
+// return
+
+// }
+
+// func main(){
+// total := myMessage(2, 4)
+// fmt.Println(total)
+// }
+
+//multiple return values
+
+// package main
+// import ("fmt")
+
+// func total(x int, y string)(result1 int, result2 string){
+// 	result1 = x + x;
+// 	result2 = y + "bhai hu"
+//     return
+// }
+
+// func main(){
+// 	fmt.Println(total(3, "Akram"))
+// }
