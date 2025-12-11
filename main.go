@@ -924,3 +924,50 @@
 // func main(){
 // 	fmt.Println(total(3, "Akram"))
 // }
+
+
+
+
+// package main
+// import ("fmt")
+
+// func myMsg(rollno int, name string) (result int, total string){
+// 	result = rollno + rollno
+// 	total = name + "world"
+// return
+// }
+
+// func main(){
+// 	a, b := myMsg(3, "Hello")
+// 	fmt.Println(a, b)
+// }
+
+// package main
+// import ("fmt")
+
+// func final_total(roll int, name string)( fully int, half string){
+// 	fully = roll + roll
+// 	half = name + "World"
+// 	return
+// }
+
+// func main(){
+// 	_, s := final_total(6, "Hola Migo")
+// 	fmt.Println(s)
+// }
+
+
+// package main
+// import ("fmt")
+
+// func final_total(roll int, name string)( fully int, half string){
+// 	fully = roll + roll
+// 	half = name + "World"
+// 	return
+// }
+
+// func main(){
+// 	s, _ := final_total(6, "Hola Migo")
+// 	fmt.Println(s)
+// }
+
