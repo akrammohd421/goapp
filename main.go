@@ -1069,3 +1069,18 @@
 //   fmt.Println("Job: ", pers.job)
 //   fmt.Println("Salary: ", pers.salary)
 // }
+
+
+package main
+import ("fmt")
+
+func main(){
+	var a = map[string]string{"brand":"ford", "model":"mustang", "year": "1946"}
+
+	b:= map[string]int{"oslo": 1, "Bergen": 2, "trondheim": 3, "stavenger": 4}
+
+    fmt.Printf("a\t%v\n", a)
+
+	fmt.Printf("b\t%v\n", b)
+
+}
