@@ -1071,16 +1071,47 @@
 // }
 
 
-package main
-import ("fmt")
+// package main
+// import ("fmt")
 
-func main(){
-	var a = map[string]string{"brand":"ford", "model":"mustang", "year": "1946"}
+// func main(){
+// 	var a = map[string]string{"brand":"ford", "model":"mustang", "year": "1946"}
 
-	b:= map[string]int{"oslo": 1, "Bergen": 2, "trondheim": 3, "stavenger": 4}
+// 	b:= map[string]int{"oslo": 1, "Bergen": 2, "trondheim": 3, "stavenger": 4}
 
-    fmt.Printf("a\t%v\n", a)
+//     fmt.Printf("a\t%v\n", a)
 
-	fmt.Printf("b\t%v\n", b)
+// 	fmt.Printf("b\t%v\n", b)
 
-}
+// }
+
+
+
+// Create Maps Using the make() Function----------
+
+// package main 
+// import ("fmt")
+
+// func main(){
+// 	var a = make(map[string]string)
+
+// 	a["brand"] = "Ford"
+// 	a["model"] = "mustang"
+// 	a["year"] = "1964"
+
+// 	b := make(map[string]int)
+
+// 	b["oslo"] = 1
+// 	b["bergen"] = 2
+// 	b["trondheim"] = 3
+// 	b["stravenger"] = 4
+
+// 	fmt.Printf("a\t%v\n", a)
+// 	fmt.Printf("b\t%v\n", b)
+
+// }
+
+
+
+// Create an Empty Map
+
